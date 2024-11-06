@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>Group Promo Opportunities</h1>
-    <div class="box">
+    <!-- <div class="box">
 <h2>Filters</h2></br>
 <div class="dropdown">
     <h3>Must Include </h3>
@@ -43,18 +43,98 @@
     </div>
     <div><button type="#">Clear</button>
         <button type="submit"><a href="#"></a>Subscribe</button>
-        <div>
+        <div> -->
+
+            <div class="box">
+                <form novalidate>
+                    <div class="ui form">
+                        <div class="equal width fields"> 
+                            <div class="field">
+                                <label>Search By</label>
+                                <div class="input-group">
+                                    <select id="searchBy" name="searchBy">
+                                        <option value="campaign">Campaign</option>
+                                        <option value="mailingList">Mailing List</option>
+                                        <option value="swapOpportunity">Swap Opportunity</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="field">
+                                <label>Include</label>
+                                <div class="input-group">
+                                    <select id="include" name="include">
+                                        <option value="alien">Alien</option>
+                                        <option value="africanAmerican">African American</option>
+                                        <option value="fiction">Fiction</option>
+                                        <option value="nonFiction">Non-Fiction</option>
+                                        <option value="graphicNovel">Graphic Novel</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="field">
+                                <label>Exclude</label>
+                                <div class="input-group">
+                                    <select id="exclude" name="exclude">
+                                        <option value="alien">Alien</option>
+                                        <option value="africanAmerican">African American</option>
+                                        <option value="fiction">Fiction</option>
+                                        <option value="nonFiction">Non-Fiction</option>
+                                        <option value="graphicNovel">Graphic Novel</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="field">
+                                <label>Search By</label>
+                                <div class="input-group">
+                                    <select id="searchBy2" name="searchBy2">
+                                        <option value="amazon">Amazon</option>
+                                        <option value="wide">Wide</option>
+                                        <option value="mixed">Mixed</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="field">
+                                <label>Search By</label>
+                                <div class="input-group">
+                                    <select id="searchBy3" name="searchBy3">
+                                        <option value="amazon">Amazon</option>
+                                        <option value="wide">Wide</option>
+                                        <option value="mixed">Mixed</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="field">
+                                <div name="searchBy" role="listbox" aria-expanded="false" class="ui fluid selection dropdown" tabindex="0"> 
+                                    <div aria-atomic="true" aria-live="polite" role="alert" class="divider_text">Select Option</div>
+                                    <i aria-hidden="true" class="dropdown icon"></i>
+                                    <div class="menu transition">
+                                        <div role="option" aria-checked="false" aria-selected="false" class="item" style="pointer-events: all;">
+                                            <span class="text">Campaign</span>
+                                        </div>
+                                        <div role="option" aria-checked="false" aria-selected="false" class="item" style="pointer-events: all;">
+                                            <span class="text">Mailing List</span>
+                                        </div>
+                                        <div role="option" aria-checked="false" aria-selected="false" class="item" style="pointer-events: all;">
+                                            <span class="text">Swap Opportunity</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                    </div>
+                </form>
+                <button type="#">Clear</button>
+                <button type="submit"><a href="#"></a>Subscribe</button>
+
+            </div>
         
 
-        <table>
+        <!-- <table>
             <thead>
                 <tr>
-                    <th>Title</th>
-                    <th>Organizer</th>
-                    <th>Type</th>
-                    <th>Start Date</th>
-                    <th>End Date</th>
-                    <th>Tags</th>
+                  
 
                 </tr>
             </thead>
@@ -70,7 +150,79 @@
         </table>
         <button id="deleteButton" class="alertButton" ><a href="/JavaScript/delete_integration.html"></a>Delete </button> 
 
-    </div>
+    </div> -->
+
+
+    <table class="ui celled structured unstackable table"> 
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Organizer</th>
+                <th>Type</th>
+                <th>Start Date</th>
+                <th>End Date</th>
+                <th>Tags</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tbody>
+                <tr>
+                    <td>Book 1</td>
+                    <td>Sci-fi Thriller</td>
+                    <td>Nishi Tiwari</td>
+                    <td class="center aligned">Amazon-only</td>
+                    <td>1000</td>
+                    <td>22%</td>
+                  
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <td>Book 1</td>
+                    <td>Cocktails & Criminals</td>
+                    <td>Shekhar Rahul</td>
+                    <td class="center aligned">Amazon-only</td>
+                    <td>800</td>
+                    <td>20%</td>
+                 
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <td>Book 1</td>
+                    <td>YA Fiction</td>
+                    <td>Amish Singh</td>
+                    <td class="center aligned">Mixed</td>
+                    <td>200</td>
+                    <td>25%</td>
+                
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <td>Book 1</td>
+                    <td>Murder Mystery</td>
+                    <td>John Doe</td>
+                    <td class="center aligned">Wide</td>
+                    <td>170</td>
+                    <td>27%</td>
+            
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <td>Book 1</td>
+                    <td>Contemporary</td>
+                    <td>Sudhanshu</td>
+                    <td class="center aligned">Mixed</td>
+                    <td>760</td>
+                    <td>76%</td>
+              
+                </tr>
+            </tbody>
+                                                            
+        </tbody>
+    </table>
 
 </body>
 </html>

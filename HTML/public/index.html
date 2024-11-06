@@ -188,6 +188,29 @@
     <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="/script.js"></script>
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyDNie84zgqOTjTRKyiwVDDeBEroFTdWcm4",
+          authDomain: "author-verse-72502.firebaseapp.com",
+          projectId: "author-verse-72502",
+          storageBucket: "author-verse-72502.firebasestorage.app",
+          messagingSenderId: "875906085261",
+          appId: "1:875906085261:web:9e0d32aeab7d74758d8dc4",
+          measurementId: "G-15GYHHS8X9"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+      </script>
 </body>
 
 </html>
